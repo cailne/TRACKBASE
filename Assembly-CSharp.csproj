@@ -88,9 +88,6 @@
      <None Include="Assets\UnityDefault\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\UnityDefault\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\UnityDefault\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>C:/Users/Leonardo/Desktop/semester 4 memek/TRACKBASE/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
