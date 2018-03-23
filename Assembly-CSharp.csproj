@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\HalfPointTrigger.cs" />
+     <Compile Include="Assets\Script\LapComplete.cs" />
      <Compile Include="Assets\Script\StableCam.cs" />
+     <Compile Include="Assets\Script\TimeManager.cs" />
      <Compile Include="Assets\UnityDefault\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\UnityDefault\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
      <Compile Include="Assets\UnityDefault\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
