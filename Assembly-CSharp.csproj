@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CarControlActive.cs" />
+     <Compile Include="Assets\Script\Countdown.cs" />
      <Compile Include="Assets\Script\HalfPointTrigger.cs" />
      <Compile Include="Assets\Script\LapComplete.cs" />
      <Compile Include="Assets\Script\StableCam.cs" />
