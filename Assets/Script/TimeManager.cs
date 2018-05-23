@@ -12,8 +12,11 @@ public class TimeManager : MonoBehaviour {
 
 	public GameObject minute,second,millisec;
 
+	public static float RawTime;
+
 	void Update(){
 		mili += Time.deltaTime * 10;
+		RawTime += Time.deltaTime;
 		miliDisplay = mili.ToString("F0");
 		millisec.GetComponent<Text>().text = "" + miliDisplay;
 

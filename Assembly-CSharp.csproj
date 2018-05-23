@@ -51,10 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\AICarTrackNo1.cs" />
+     <Compile Include="Assets\Script\CameraChange.cs" />
      <Compile Include="Assets\Script\CarControlActive.cs" />
      <Compile Include="Assets\Script\Countdown.cs" />
      <Compile Include="Assets\Script\HalfPointTrigger.cs" />
      <Compile Include="Assets\Script\LapComplete.cs" />
+     <Compile Include="Assets\Script\LoadLapTime.cs" />
      <Compile Include="Assets\Script\StableCam.cs" />
      <Compile Include="Assets\Script\TimeManager.cs" />
      <Compile Include="Assets\UnityDefault\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
