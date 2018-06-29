@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Vehicles.Car;
+using UnityEngine.SceneManagement;
 
 public class RaceFinish : MonoBehaviour {
 
@@ -23,5 +24,13 @@ public class RaceFinish : MonoBehaviour {
 		FinishCam.SetActive(true);
 		//LevelMusic.SetActive (false);
 		ViewModes.SetActive(false);
+
+		StartCoroutine(WaitingEnd());
+	}
+
+	IEnumerator WaitingEnd(){
+		GlobalCash.TotalCash += 200;
+		yield return new WaitForSeconds(7);
+		SceneManager.LoadScene(0);
 	}
 }

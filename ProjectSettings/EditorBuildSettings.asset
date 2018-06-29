@@ -12,5 +12,11 @@ EditorBuildSettings:
     path: Assets/Scene/TrackSelection.unity
     guid: 628314fa4574f9648917ffe562f6c644
   - enabled: 1
+    path: Assets/Scene/CarSelection.unity
+    guid: 6da01787c3282e44cb00dd160d17edbc
+  - enabled: 1
+    path: Assets/Scene/shop.unity
+    guid: e5c49840eee724c4687d4f3f552a3c8e
+  - enabled: 1
     path: Assets/Scene/TrackNo1.unity
     guid: eb5a14d1f6d58334f9c8286cd61474f4

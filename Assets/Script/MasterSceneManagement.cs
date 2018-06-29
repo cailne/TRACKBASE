@@ -13,7 +13,15 @@ public class MasterSceneManagement : MonoBehaviour {
 		SceneManager.LoadScene(1);
 	}
 
-	public void GoToTrack1(){
+	public void GoToCarSelect(){
 		SceneManager.LoadScene(2);
+	}
+
+	public void GoToShop(){
+		SceneManager.LoadScene(3);
+	}
+
+	public void GoToTrack1(){
+		SceneManager.LoadScene(4);
 	}
 }
